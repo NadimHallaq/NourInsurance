@@ -1,0 +1,132 @@
+{
+  "mainData": {
+    "title": "Nour Cabinet de Courtage en Assurance",
+    "slogan": "Nous recommandons ce dont vous avez vraiment besoin. Pas plus ni moins.",
+    "whyChooseUs": "Pourquoi Choisir Nour Assurance",
+    "WhatsIncluded": "Qu’est ce qui est Inclus",
+    "type": "Types d'Assurance",
+    "YouCanAlsoAdd": "Vous Pouvez Également Ajouter",
+    "questions": "Avez Vous Des Questions?",
+    "callus": "Appelez-Nous Aujourd’hui!",
+    "nour": "Nour Assurance",
+    "firm": "Cabinet de Services Financiers",
+    "auto": "Types d'Assurance Automobile",
+    "home": "Types d'Assurance Habitation",
+    "commercial": "Types d'Assurance Commerciale",
+    "mission": "Notre mission"
+  },
+  "navs": {
+    "home": "Accueil",
+    "aboutus": "À propos",
+    "services": "Services",
+    "get": "Get Quote",
+    "call": "Appelle",
+    "callme": "Appellez-moi",
+    "company": "Compagnie"
+  },
+  "services": {
+    "one": "Assurances Automobiles",
+    "two": "Assurances Habitations",
+    "three": "Assurances Commerciales"
+  },
+  "today": {
+    "one": "Obtenir une",
+    "two": "Couverture",
+    "three": "Aujourd’hui"
+  },
+  "whyChooseUs": {
+    "zero": {"name": "Assistance à la clientèle 24h/24", "body": "Nos agents sont toujours disponibles pour vous servir, composez le 514-744-6668  pour nous contacter 24 heures sur 24."},
+    "one": {"name": "Forfaits Personnalisés",  "body": "Nous adaptons toutes les polices d’assurance aux besoins de nos clients, sans frais supplémentaires ni modules complémentaires dont vous n’avez pas besoin. Nous ne recommandons que ce dont vous avez besoin pour le “prix - couverture” optimal possible."},
+    "two": {"name": "Options de Paiement Flexibles",  "body": "Nous offrons des options de paiement flexibles pour tous nos clients, y compris le paiement forfaitaire, les paiements mensuels faciles et les cartes de crédit."},
+    "three": {"name": "Rapide! Fiable! et Efficace!",  "body": "Pas de questions interminables et de longs appels téléphoniques, tous nos agents sont formés pour fournir un service rapide et fiable qui répond à vos besoins"},
+    "four": {"name": " Compréhensif",  "body": "Lors de l'achat de nos produits d'assurance, nous nous assurons que tous nos clients sont entièrement assurés contre les événements imprévus, avec des forfaits complets qui répondent à leurs besoins."}
+  },
+  "AutoTypes": {
+    "One": { "name": "Automobile"},
+    "Two": { "name": "Maritime"},
+    "Three": { "name": "Motocycle"}
+  },
+  "AutoReasons": {
+    "One": { "name": "Responsabilité Civile", "body": "Dommages à votre véhicule causés par une collision au Québec pour laquelle vous n’êtes pas responsable Dommages matériels ou corporels causés par un accident hors du Québec pour lequel vous êtes responsable  Dommages à la propriété d’une autre personne dont vous êtes responsable." },
+    "Two": { "name": "Incendie, Vol et Vandalisme", "body": " Protégez vos biens contre les dommages tels que le feu, le vol ou tout autre dommage causé simplement dans le but de causer des dommages, autrement dit, le méfait malveillant." },
+    "Three": { "name": "Location de Voiture Gratuite", "body": "En cas d'accident de voiture imprévu, pendant votre temps de réparation, votre compagnie d'assurance paiera les frais de location d'une voiture pour la durée de la réparation." },
+    "Four": { "name": "Collision", "body": "En cas d'accident imprévu, cette couverture est en place pour vous protéger à vous, ainsi qu’à votre véhicule, si vous êtes impliqué dans un accident avec un autre véhicule ou objet." }
+  },
+  "AutoAddons": {
+    "One": { "name": "Réclamation Pardonnée", "body": "Tout le monde fait des erreurs, cet ajout protège votre cote de conducteur contre les impacts lorsque vous avez un accident ou une réclamation responsable." },
+    "Two": { "name": "Assistance Routière", "body": "Ayez l'esprit tranquille avec l'Assistance Routière, que vous ayez besoin d'aide pour démarrer votre batterie; fournir de l'essence; changer un pneu crevé ou remorquer votre véhicule, ce module complémentaire vous permettra d'obtenir de l'aide lorsque vous en avez besoin." },
+    "Three": { "name": "Valeur à Neuf", "body": "En cas d'accident de voiture imprévu, dans lequel le véhicule est irréparable et déclaré comme une perte totale, votre compagnie d'assurance vous remboursera l'intégralité du coût de votre bien, tout en vous protégeant contre la dépréciation" },
+    "Four": { "name": "Et Beaucoup Plus", "body": "Contactez nos agents dès aujourd'hui et renseignez-vous sur les nombreuses fonctionnalités que vous pouvez ajouter à votre police d'assurance" }
+  },
+  "HomeTypes": {
+    "One": "Maison",
+    "Two": "Condominium",
+    "Three": "Locataire",
+    "Four": "Logement Saisonnier"
+  },
+  "HomeReasons": {
+    "One": { "name": "Responsabilité Civile", "body": "Ce type d'assurance vous protège à vous - ainsi qu'à ceux qui vivent sous votre toit - contre les blessures corporelles et les dommages matériels que vous pourriez avoir involontairement causés à une personne et à ses biens, entraînant des réclamations ou des poursuites." },
+    "Two": { "name": "Contenu", "body": "Ce type d'assurance protège vos biens personnels, que ce soit dans votre maison ou pendant que vous voyagez, contre le vol ou les dommages." },
+    "Three": { "name": "Frais de Subsistance Supplémentaires", "body": "Ce type d'assurance couvre les frais de logement, de remplacement, et les frais de subsistance des personnes à qui il est interdit de revenir à sa maison ou parce que leur maison est inhabitable en raison de dommages assurés." },
+    "Four": { "name": "Bâtiment", "body": "Cette couverture optionnelle protège la structure du bâtiment de votre maison contre les pertes accidentelles." },
+    "Five": { "name": "Dépendance", "body": "Cette couverture optionnelle protège les biens entourant votre propriété, tels que les cours arrière, les arbres ou tout objet de valeur à l'extérieur du bâtiment principal." }
+  },
+  "HomeAddons": {
+    "One": { "name": "Refoulement d'Égout", "body": " Cette couverture optionnelle protège votre propriété contre les dommages causés par la fuite d'eau d'un égout, d'un drain, d'un puisard ou d'une pompe septique." },
+    "Two": { "name": "Couverture des Eaux Au-Dessus du Sol", "body": "Cette couverture optionnelle vous protège contre les dégâts d'eau soudains et accidentels causés par le déversement, le refoulement et le débordement d'eau des avant-toits, des descentes pluviales, des gouttières ou des drains de toit." },
+    "Three": { "name": "Vol d'Identité", "body": "Cette couverture optionnelle vous protège contre des coûts liés au vol d'identité. La compagnie d’assurance vous rembourse l'argent dépensé pour récupérer vos identités financières et réparer vos rapports de crédit." },
+    "Four": { "name": "Tremblement de Terre", "body": "Cette couverture optionnelle vous protège contre les tremblements de terre dévastateurs qui pourraient causer de graves dommages à votre propriété. Il vaut la peine d'envisager l'achat de ce type d'assurance si vous vivez dans une région plus sujette aux catastrophes naturelles." },
+    "Five": { "name": "Inondation", "body": "Cette couverture optionnelle vous protège contre le débordement d'un plan d'eau naturel qui atteint votre domicile." },
+    "Six": { "name": "Avenant à Limite Unique", "body": "Cette couverture optionnelle permet à l'assuré de combiner les montants des couvertures d'assurance dans des situations où l'une des limites de couverture est insuffisante pour payer la perte" },
+    "Seven": { "name": "Et Beaucoup Plus", "body": "Contactez nos agents dès aujourd'hui et renseignez-vous sur les nombreuses fonctionnalités que vous pouvez ajouter à votre police d'assurance." }
+  },
+  "ComTypes": {
+    "One": { "name": "Contrators and Construction" },
+    "Two": { "name": "Service businesses" },
+    "Three": { "name": "Retailers" },
+    "Four": { "name": "Restaurant" },
+    "Five": { "name": "Builder's Risk Insurance" }
+  },
+  "ComReasons": {
+    "One": { "name": "Responsabilité Commerciale Générale", "body": "L'assurance de responsabilité civile commerciale est conçue pour vous protéger à vous, et à votre entreprise, contre une perte si vous êtes légalement tenu responsable des blessures corporelles ou des dommages matériels causés à un tiers par le produit que vous vendez ou le service que vous fournissez." },
+    "Two": { "name": "Vol Incendie et Vandalisme", "body": "Protégez votre entreprise contre les dommages tels que le feu, le vol ou tout autre dommage causé simplement dans le but de causer des dommages, autrement dit, le méfait malveillant." },
+    "Three": { "name": "Perte de Revenu", "body": "L'assurance perte de revenu vous indemnise pour votre perte de revenu lorsque vos activités commerciales ont été temporairement interrompues en raison d'une perte assurée." },
+    "Four": { "name": "Assurance Véhicule Commerciale", "body": "L'assurance des véhicules commerciaux protège les véhicules utiliser dans votre entreprise contre les accidents imprévus." },
+    "Five": { "name": "Assurance Parapluie", "body": "Cette police complète celle d'une police de responsabilité civile commerciale (CGL) et automobile, ainsi que les couvertures de responsabilité supplémentaires non contenues dans la CGL." }
+  },
+  "ComAddons": {
+    "One": { "name": "Interruption de Travail", "body": "L'assurance perte d'exploitation couvre la perte de revenus et les dépenses résultant de dommages matériels ou de pertes." },
+    "Two": { "name": "Inondation", "body": "L'assurance contre les inondations protège les actifs de votre entreprise contre de nombreuses dommage causé par des débordements d'eau dus à des catastrophes naturelles telles que des tempêtes." },
+    "Three": { "name": "Tremblement de Terre ", "body": "L'assurance Tremblement de Terre commerciale couvre les événements catastrophiques qui entraînent des pertes que votre entreprise ne peut pas supporter" },
+    "Four": { "name": "Refoulement des Égouts", "body": "Cette couverture optionnelle protège la propriété de votre entreprise contre les dommages causés par la fuite d'eau d'un égout, d'un drain, d'un puisard ou d'une pompe septique" },
+    "Five": { "name": "Erreurs et Omissions ", "body": "L'assurance Erreurs et Omissions (E&O) couvre les erreurs ou les défaillances involontaires qui causent des blessures à un tiers. L'acte doit en fait être une erreur par inadvertance et non simplement un manque de jugement ou des actes intentionnels." },
+    "Six": { "name": "Revenu d’Entreprise Étendue", "body": "Une couverture de Revenu d’Entreprise Étendue vous protégerait contre une perte de revenu d'entreprise qui se poursuivra meme apres la reprise des activités de l'atelier et la fin de la période de restauration." },
+    "Seven": { "name": "Assurance Bris de Glace", "body": "L'assurance de Verre couvre les vitrines brisées et les vitres en verre." },
+    "Eight": { "name": "Et Bien Plus", "body": "Contactez nos agents dès aujourd'hui et renseignez-vous sur les nombreuses fonctionnalités que vous pouvez ajouter à votre police d'assurance." }
+  },
+  "form": {
+    "Contact": "Contactez-Nous",
+    "first": "Prénom",
+    "last": "Nom",
+    "email": "Courriel",
+    "submit": "Soumettre",
+    "get": "Soumission",
+    "cancel": "Annuler",
+    "phone": "Numéro de téléphone",
+    "callmeat": "choisissez votre temps",
+    "callme": "Choisisez l'heure",
+    "title": "Veuillez remplir le formulaire et notre agent vous contactera sous peu",
+    "formtitle": "Merci d'avoir contacté Nour Assurance, notre agent vous répondra sous peu",
+    "calltitle": "Merci d'avoir contacté Nour Assurance, nos agents vous appelleront à: "
+  },
+  "SEO": {
+    "home": "Nour Insurance",
+    "auto": "Assurances Automobiles",
+    "property": "Assurances Habitations",
+    "commercial": "Assurances Commerciales",
+    "About us": "À propos"
+  },
+"aboutus": {
+  "body": "Chez NOUR ASSURANCE. Nous nous engageons à respecter les principes de service et d'intégrité tout en offrant à nos clients des conseils et une assistance professionnels, afin de leur apporter UNE sécurité et protection financière. Nous nous engageons à mettre sur le marché des produits d'assurance adéquats à des prix compétitifs, tout en aidant nos clients à répondre à leurs besoins changeants. Notre équipe de professionnels place le client au cœur de sa préoccupation, dont sa rôle principal est d'être le conseiller en assurance pour vous, votre entreprise et votre famille."
+}
+}

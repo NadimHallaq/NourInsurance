@@ -1,11 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Material UI Starter`,
-    description: `Kick off your next, great Gatsby project with this Material UI starter. This barebones starter ships with the main Gatsby and Material UI configuration files you might need.`,
-    author: `@dominicabela`,
+    title: `Nour Insurance Broker`,
+    description: `We recomend what you truly need, no more no less`,
+    author: `Nadim Hallaq`,
   },
+
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-181320705-1',
+        head: true,
+        pageTransitionDelay: 0,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-MS9PZN3',
+        includeInDevelopment: false,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,6 +28,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -24,23 +40,40 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/components/icons/NourLogo.js`, // This path is relative to the root of the site.
+      },
+    },
+
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-preact`,
+
+    {
+      resolve: `gatsby-theme-material-ui`,
+      options: {
+        webFontsConfig: {
+          fonts: {
+            google: [
+              {
+                family: `Merriweather`,
+                variants: [`900`],
+              },
+              {
+                family: `Open Sans`,
+                variants: [``],
+              },
+            ],
+          },
+        },
       },
     },
     {
-      resolve: `gatsby-plugin-material-ui`,
-      // If you want to use styled components, in conjunction to Material-UI, you should:
-      // - Change the injection order
-      // - Add the plugin
+      resolve: `gatsby-plugin-intl`,
       options: {
-        // stylesProvider: {
-        //   injectFirst: true,
-        // },
+        path: `${__dirname}/src/intl`,
+        languages: [`en`, `fr`],
+        defaultLanguage: `fr`,
+        redirect: true,
       },
-      // 'gatsby-plugin-styled-components',
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
   ],
 }
