@@ -60,7 +60,7 @@ function SEO({ description, lang, meta, title }) {
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
+          name: `instagram:creator`,
           content: site.siteMetadata.author,
         },
         {
