@@ -14,7 +14,9 @@ import PhoneIcon from '@material-ui/icons/Phone'
 import PeopleIcon from '@material-ui/icons/People'
 import MobileLang from '../MobileLang'
 import Quote from '../../ContactForms/GetQuote'
-import HomeIcon from '@material-ui/icons/Home';
+import HomeIcon from '@material-ui/icons/Home'
+import FavoriteIcon from '@material-ui/icons/Favorite'
+
 const useStyles = makeStyles(theme => ({
   title: {
     fontWeight: 700,
@@ -46,7 +48,7 @@ const useStyles = makeStyles(theme => ({
 
 const MobileCard = ({ destination, name, icon }) => {
   const classes = useStyles()
-  
+
   return (
     <Button
       component={Link}
@@ -106,13 +108,13 @@ const MobileHeader = () => {
                 className={classes.title}
               >
                 {' '}
-                {intl.formatMessage({ id: "mainData.nour" })}
+                {intl.formatMessage({ id: 'mainData.nour' })}
               </Typography>
             </Grid>
             <Grid item sm={12} xs={12}>
               <MobileCard
                 icon={<HomeIcon />}
-                name={intl.formatMessage({ id: "navs.home" })}
+                name={intl.formatMessage({ id: 'navs.home' })}
                 HomeRoundedIcon
                 destination="/"
               />
@@ -120,7 +122,7 @@ const MobileHeader = () => {
             <Grid item sm={12} xs={12}>
               <MobileCard
                 icon={<DriveEtaRoundedIcon />}
-                name={intl.formatMessage({ id: "services.one" })}
+                name={intl.formatMessage({ id: 'services.one' })}
                 HomeRoundedIcon
                 destination="/auto"
               />
@@ -128,15 +130,22 @@ const MobileHeader = () => {
             <Grid item sm={12} xs={12}>
               <MobileCard
                 icon={<HomeRoundedIcon />}
-                name={intl.formatMessage({ id: "services.two" })}
+                name={intl.formatMessage({ id: 'services.two' })}
                 destination="/home"
               />
             </Grid>
             <Grid item sm={12} xs={12}>
               <MobileCard
                 icon={<BusinessIcon />}
-                name={intl.formatMessage({ id: "services.three" })}
+                name={intl.formatMessage({ id: 'services.three' })}
                 destination="/commercial"
+              />
+            </Grid>
+            <Grid item sm={12} xs={12}>
+              <MobileCard
+                icon={<FavoriteIcon />}
+                name={intl.formatMessage({ id: 'services.four' })}
+                destination="/life"
               />
             </Grid>
             <Grid item sm={12} xs={12}>
@@ -145,7 +154,7 @@ const MobileHeader = () => {
             <Grid item sm={12} xs={12}>
               <MobileCard
                 icon={<PeopleIcon />}
-                name= {intl.formatMessage({ id: "navs.aboutus" })}
+                name={intl.formatMessage({ id: 'navs.aboutus' })}
                 destination="/aboutus"
               />
             </Grid>
@@ -163,7 +172,7 @@ const MobileHeader = () => {
           startIcon={<PhoneIcon />}
           href="tel:514-744-6668"
         >
-          {intl.formatMessage({ id: "navs.call" })}
+          {intl.formatMessage({ id: 'navs.call' })}
         </Button>
         <Quote color="primary" />
       </Toolbar>

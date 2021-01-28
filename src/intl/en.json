@@ -13,6 +13,7 @@
     "auto": "Types of Car Insurance",
     "home": "Types of Home Insurance",
     "commercial": "Types of Commercial Insurance",
+    "life": "Types of Life Insurance",
     "mission": "Our Mission"
   },
   "navs": {
@@ -27,7 +28,8 @@
   "services": {
     "one": "Auto Insurance",
     "two": "Home Insurance",
-    "three": "Commercial Insurance"
+    "three": "Commercial Insurance",
+    "four": "Life Insurance"
   },
   "today": {
     "one": "Get",
@@ -103,6 +105,28 @@
     "Six": { "name": "Extended Business Income", "body": "Extended business income coverage would protect against a loss of Business Income that continues after the shop has resumed operations and the period of restoration has ended." },
     "Seven": { "name": "Glass Insurance", "body": "Glass insurance covers broken store windows and plate glass windows." },
     "Eight": { "name": "Plus Many More", "body": "Contact our agents today, and ask about the many other endorsements that you can add to your insurance policy." }
+  },
+  "LifeTypes": {
+    "One": { "name": "Permanent" },
+    "Two": { "name": "Term" },
+    "Three": { "name": "Universal" }
+  },
+  "LifeReasons": {
+    "One": { "name": "Insurance Amount (Tax-Free Cash Benefit)", "body": "Guaranteed for the life of the policy. (X years for Term life insurance, And permanently  Guaranteed for permanent life insurance)" },
+    "Two": { "name": "Insurability Benefit", "body": "It is possible to increase the insurance amount, without new evidence of insurability, upon certain life events or when obtaining a new loan or increasing an existing one. The insurance amount may be increased before the age of 60, up to 25% of the initial insurance amount." },
+    "Three": { "name": "Extreme Disability benefit", "body": "Before the age of 60, 50% (if insurance amount is level) or 25% (if insurance amount is decreasing) of the initial insurance amount may be payable in advance, up to a maximum of 250,000$. The benefit is paid when the insured is in a state of extreme disability for a continuous period of 6 months." },
+    "Four": { "name": "Conversion", "body": "Convertible into permanent life insurance, up to age 70, without new evidence of insurability." },
+    "Five": { "name": "Complementary Protection", "body": "Term Insurance can be combined with whole life and critical illness insurance products." }
+
+  },
+  "LifeAddons": {
+    "One": { "name": "Guaranteed Insurability", "body": "This optional insurance policy clause, is most beneficial when there has been a significant change in your life circumstances, such as the birth of your child, marriage, or an increase in your income. If your health declines with age, you will be able to apply for extra coverage without giving any evidence of insurability." },
+    "Two": { "name": "Disability Insurance", "body": "This optional insurance policy clause, provides income in the event that a policyholder is prevented from working and earning an income due to a disability." },
+    "Three": { "name": "Critical Illnesses", "body": "This optional insurance policy clause, provides additional coverage for medical emergencies like heart attack, stroke, or cancer. Because these emergencies or illnesses often incur greater than average medical costs, these policies pay out cash to help cover those overruns where traditional health insurance may fall short." },
+    "Four": { "name": "Accidental Death and Dismemberment", "body": "This optional insurance policy clause, covers the unintentional death or dismemberment of the insured. Dismemberment includes the loss—or the loss of use—of body parts or functions (e.g., limbs, speech, eyesight, and hearing)." },
+    "Five": { "name": "Waiver of Premium", "body": "This optional insurance policy clause, waives insurance premium payments if the policyholder becomes critically ill or disabled. To purchase a waiver of premium you may need to meet certain requirements for age and health." },
+    "Six": { "name": "Child Benefit", "body": "This optional insurance policy clause, provides a death benefit in case a child dies before a specified age. After the child reaches maturity, the term plan can be converted into permanent insurance with coverage up to five times the original amount without the need for medical exams." },
+    "Seven": { "name": "Long-Term Care", "body": "In the event the insured must stay at a nursing home or receive home care, this optional insurance policy clause offers monthly payments. Although long-term care insurance can be bought individually, insurance companies also offer riders that take care of your long-term care costs." }
   },
   "form": {
     "Contact": "Contact Us",

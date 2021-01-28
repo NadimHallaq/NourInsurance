@@ -13,6 +13,7 @@
     "auto": "Types d'Assurance Automobile",
     "home": "Types d'Assurance Habitation",
     "commercial": "Types d'Assurance Commerciale",
+    "life": "Types D'assurance-vie",
     "mission": "Notre mission"
   },
   "navs": {
@@ -27,7 +28,8 @@
   "services": {
     "one": "Assurances Automobiles",
     "two": "Assurances Habitations",
-    "three": "Assurances Commerciales"
+    "three": "Assurances Commerciales",
+    "four": "Assurance Vie"
   },
   "today": {
     "one": "Obtenir une",
@@ -103,6 +105,27 @@
     "Six": { "name": "Revenu d’Entreprise Étendue", "body": "Une couverture de Revenu d’Entreprise Étendue vous protégerait contre une perte de revenu d'entreprise qui se poursuivra meme apres la reprise des activités de l'atelier et la fin de la période de restauration." },
     "Seven": { "name": "Assurance Bris de Glace", "body": "L'assurance de Verre couvre les vitrines brisées et les vitres en verre." },
     "Eight": { "name": "Et Bien Plus", "body": "Contactez nos agents dès aujourd'hui et renseignez-vous sur les nombreuses fonctionnalités que vous pouvez ajouter à votre police d'assurance." }
+  },
+  "LifeTypes": {
+    "One": { "name": "Permanente" },
+    "Two": { "name": "Terme" },
+    "Three": { "name": "Universelle" }
+  },
+  "LifeReasons": {
+    "One": { "name": "Montant de l'Assurance (prestation libre d'impôt)", "body": "Garanti pour la durée de vie de la police. (X année pour l'assurance vie temporaire et garantie a vie pour l'assurance vie entière)." },
+    "Two": { "name": "Prestation d'Assurabilité", "body": "Il est possible d'augmenter le montant d'assurance, sans preuve d'assurabilité, lors de certains événements de la vie ou lors de l'obtention d'un nouveau prêt ou de l'augmentation d'un prêt existant. Le montant d'assurance peut être augmenté avant l'âge de 60 ans, jusqu'à 25% du montant d'assurance initial." },
+    "Three": { "name": "Prestation d'Invalidité Extrême", "body": "Avant l'âge de 60 ans, 50% (si le montant d'assurance est uniforme) ou 25% (si le montant d'assurance est décroissant) du montant d'assurance initial peut être payable d'avance, jusqu'à un maximum de 250 000 $. La prestation est versée lorsque l'assuré est en état d'invalidité extrême pendant une période continue de 6 mois." },
+    "Four": { "name": "Conversion", "body": "Transformable en assurance vie permanente, jusqu'à 70 ans, sans preuve d'assurabilité." },
+    "Five": { "name": "Protection complémentaire", "body": "L'assurance temporaire peut être combinée avec des produits d'assurance vie entière et maladies graves." }
+  },
+  "LifeAddons": {
+    "One": { "name": "Garantie d'Assurabilité", "body": "Un avenant d'assurabilité garantie est plus avantageux lorsqu'il y a eu un changement important dans votre situation de vie, comme la naissance de votre enfant, le mariage ou une augmentation de votre revenu. Si votre état de santé se dégrade avec l'âge, vous pourrez demander une couverture supplémentaire sans fournir aucune preuve d'assurabilité." },
+    "Two": { "name": "Assurance Invalidité", "body": "Comme son nom l'indique, l'assurance invalidité est un type de produit d'assurance qui fournit un revenu dans le cas où un preneur d'assurance est empêché de travailler et de gagner un revenu en raison d'une invalidité" },
+    "Three": { "name": "Maladies Graves", "body": "L'assurance maladies graves offre une couverture supplémentaire pour les urgences médicales telles que crise cardiaque, accident vasculaire cérébral ou cancer. " },
+    "Four": { "name": "Décès et Mutilation Accidentels (AD&D)", "body": "L'avenant couvre le décès et la mutilation involontaire de l'assuré. La mutilation comprend la perte, ou la perte d'usage, de parties du corps ou de fonctions (par exemple, les membres, la parole, la vue et l'ouïe)." },
+    "Five": { "name": "Exonération de Prime", "body": "L’avenant, exonération de prime est une clause de police d'assurance facultative qui renonce au paiement des primes d'assurance si le preneur d'assurance devient gravement malade ou invalide. Pour obtenir cet avenant, vous devrez peut-être répondre à certaines conditions d'âge et de santé" },
+    "Six": { "name": "Allocation familiale", "body": "Cet avenant fournit une prestation de décès au cas où un enfant décède avant un âge spécifié. Une fois que l'enfant atteint la maturité, le plan temporaire peut être converti en assurance permanente avec une couverture jusqu'à cinq fois le montant initial sans avoir besoin d'examens médicaux." },
+    "Seven": {"name": "Avenant de Soins de Longue Durée", "body": "Dans le cas où l'assuré doit séjourner dans une maison de retraite ou recevoir des soins à domicile, cet avenant propose des mensualités. Bien que l'assurance soins de longue durée puisse être souscrite individuellement, les compagnies d'assurance proposent également des avenants qui prennent en charge vos frais de soins de longue durée."}
   },
   "form": {
     "Contact": "Contactez-Nous",

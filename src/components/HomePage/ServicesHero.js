@@ -7,7 +7,6 @@ import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import { FormattedMessage, Link } from 'gatsby-plugin-intl'
 
-
 const styles = theme => ({
   root: {
     marginTop: theme.spacing(12),
@@ -18,7 +17,7 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     overflow: 'hidden',
-  }, 
+  },
   imageWrapper: {
     position: 'relative',
     display: 'block',
@@ -114,30 +113,41 @@ export const ServicesHero = props => {
             }
           }
         }
+        life: file(relativePath: { eq: "life.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1080) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `
   )
-
-  console.log(data)
 
   const images = [
     {
       url: data.auto.childImageSharp.fluid,
       title: <FormattedMessage id="services.one" />,
       width: '50%',
-      to: "/auto"
+      to: '/auto',
     },
     {
       url: data.home.childImageSharp.fluid,
       title: <FormattedMessage id="services.two" />,
       width: '50%',
-      to: "/home"
+      to: '/home',
     },
     {
       url: data.com.childImageSharp.fluid,
       title: <FormattedMessage id="services.three" />,
-      width: '100%',
-      to: "/commercial"
+      width: '50%',
+      to: '/commercial',
+    },
+    {
+      url: data.life.childImageSharp.fluid,
+      title: <FormattedMessage id="services.four" />,
+      width: '50%',
+      to: '/life',
     },
   ]
   return (

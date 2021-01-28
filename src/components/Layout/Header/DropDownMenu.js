@@ -10,7 +10,7 @@ import Paper from '@material-ui/core/Paper'
 import DriveEtaIcon from '@material-ui/icons/DriveEta'
 import HomeIcon from '@material-ui/icons/Home'
 import StoreIcon from '@material-ui/icons/Store'
-
+import FavoriteIcon from '@material-ui/icons/Favorite'
 const useStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
@@ -67,7 +67,7 @@ const DropDownMenu = () => {
           onClick={handleClick}
         >
           {' '}
-          {intl.formatMessage({ id: "navs.services" })}
+          {intl.formatMessage({ id: 'navs.services' })}
         </Button>
         {open ? (
           <Paper elevation={5} className={classes.dropdown}>
@@ -79,12 +79,15 @@ const DropDownMenu = () => {
               color="secondary"
               disableElevation
               size="large"
-              
-              style={{ borderRadius: 0, border: '1px solid #FBC02D', textTransform: "none" }}
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
               endIcon={<DriveEtaIcon />}
               activeClassName={classes.active}
             >
-              {intl.formatMessage({ id: "services.one" })}
+              {intl.formatMessage({ id: 'services.one' })}
             </Button>
             <Button
               component={Link}
@@ -94,10 +97,14 @@ const DropDownMenu = () => {
               color="secondary"
               size="large"
               disableElevation
-              style={{ borderRadius: 0, border: '1px solid #FBC02D',textTransform: "none" }}
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
               endIcon={<HomeIcon />}
             >
-               {intl.formatMessage({ id: "services.two" })}
+              {intl.formatMessage({ id: 'services.two' })}
             </Button>
             <Button
               component={Link}
@@ -107,10 +114,31 @@ const DropDownMenu = () => {
               fullWidth
               size="large"
               disableElevation
-              style={{ borderRadius: 0, border: '1px solid #FBC02D', textTransform: "none" }}
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
               endIcon={<StoreIcon />}
             >
-               {intl.formatMessage({ id: "services.three" })}
+              {intl.formatMessage({ id: 'services.three' })}
+            </Button>
+            <Button
+              component={Link}
+              to="/life"
+              variant="contained"
+              color="secondary"
+              fullWidth
+              size="large"
+              disableElevation
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
+              endIcon={<FavoriteIcon />}
+            >
+              {intl.formatMessage({ id: 'services.four' })}
             </Button>
           </Paper>
         ) : null}
