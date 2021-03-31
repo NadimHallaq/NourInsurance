@@ -11,6 +11,8 @@ import DriveEtaIcon from '@material-ui/icons/DriveEta'
 import HomeIcon from '@material-ui/icons/Home'
 import StoreIcon from '@material-ui/icons/Store'
 import FavoriteIcon from '@material-ui/icons/Favorite'
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital'
+import AirplanemodeActiveIcon from '@material-ui/icons/AirplanemodeActive'
 const useStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
@@ -139,6 +141,40 @@ const DropDownMenu = () => {
               endIcon={<FavoriteIcon />}
             >
               {intl.formatMessage({ id: 'services.four' })}
+            </Button>
+            <Button
+              component={Link}
+              to="/health"
+              variant="contained"
+              color="secondary"
+              fullWidth
+              size="large"
+              disableElevation
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
+              endIcon={<LocalHospitalIcon />}
+            >
+              {intl.formatMessage({ id: 'sr.ht' })}
+            </Button>
+            <Button
+              component={Link}
+              to="/travel"
+              variant="contained"
+              color="secondary"
+              fullWidth
+              size="large"
+              disableElevation
+              style={{
+                borderRadius: 0,
+                border: '1px solid #FBC02D',
+                textTransform: 'none',
+              }}
+              endIcon={<AirplanemodeActiveIcon />}
+            >
+              {intl.formatMessage({ id: 'sr.tr' })}
             </Button>
           </Paper>
         ) : null}

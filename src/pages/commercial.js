@@ -16,14 +16,10 @@ import { Civil, Add, FireTHeft } from '../components/icons/AutoIcons'
 import { Error, CommercialCar, Umbrella, Money, MoreMoney, Glass } from "../components/icons/CommercialIcons"
 
 import {
-
   Additional,
-
   SewerBackup,
-
   Earthquake,
   Flooding,
- 
 } from '../components/icons/HomeIcons'
 
 

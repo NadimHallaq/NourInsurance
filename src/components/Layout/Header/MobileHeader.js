@@ -16,7 +16,8 @@ import MobileLang from '../MobileLang'
 import Quote from '../../ContactForms/GetQuote'
 import HomeIcon from '@material-ui/icons/Home'
 import FavoriteIcon from '@material-ui/icons/Favorite'
-
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital'
+import AirplanemodeActiveIcon from '@material-ui/icons/AirplanemodeActive'
 const useStyles = makeStyles(theme => ({
   title: {
     fontWeight: 700,
@@ -146,6 +147,20 @@ const MobileHeader = () => {
                 icon={<FavoriteIcon />}
                 name={intl.formatMessage({ id: 'services.four' })}
                 destination="/life"
+              />
+            </Grid>
+            <Grid item sm={12} xs={12}>
+              <MobileCard
+                icon={<LocalHospitalIcon />}
+                name={intl.formatMessage({ id: 'sr.ht' })}
+                destination="/health"
+              />
+            </Grid>
+            <Grid item sm={12} xs={12}>
+              <MobileCard
+                icon={<AirplanemodeActiveIcon />}
+                name={intl.formatMessage({ id: 'sr.tr' })}
+                destination="/travel"
               />
             </Grid>
             <Grid item sm={12} xs={12}>

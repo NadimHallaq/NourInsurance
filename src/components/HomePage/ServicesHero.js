@@ -120,6 +120,20 @@ export const ServicesHero = props => {
             }
           }
         }
+        health: file(relativePath: { eq: "health.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1080) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        travel: file(relativePath: { eq: "travel.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1080) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `
   )
@@ -148,6 +162,18 @@ export const ServicesHero = props => {
       title: <FormattedMessage id="services.four" />,
       width: '50%',
       to: '/life',
+    },
+    {
+      url: data.health.childImageSharp.fluid,
+      title: <FormattedMessage id="sr.ht" />,
+      width: '50%',
+      to: '/health',
+    },
+    {
+      url: data.travel.childImageSharp.fluid,
+      title: <FormattedMessage id="sr.tr" />,
+      width: '50%',
+      to: '/travel',
     },
   ]
   return (

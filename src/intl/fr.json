@@ -14,6 +14,8 @@
     "home": "Types d'Assurance Habitation",
     "commercial": "Types d'Assurance Commerciale",
     "life": "Types d'assurance-vie",
+    "health": "Types d'assurance Santé",
+    "travel": "Types d'assurance Voyage",
     "mission": "Notre mission"
   },
   "navs": {
@@ -26,10 +28,12 @@
     "company": "Compagnie"
   },
   "services": {
-    "one": "Assurances Automobiles",
-    "two": "Assurances Habitations",
-    "three": "Assurances Commerciales",
-    "four": "Assurance Vie"
+    "one": "Automobiles",
+    "two": "Habitations",
+    "three": "Commerciales",
+    "four": "Assurance Vie",
+    "five": "Assurance Santé",
+    "six": "Assurance Voyage"
   },
   "today": {
     "one": "Obtenir une",
@@ -127,6 +131,46 @@
     "Six": { "name": "Allocation familiale", "body": "Cet avenant fournit une prestation de décès au cas où un enfant décède avant un âge spécifié. Une fois que l'enfant atteint la maturité, le plan temporaire peut être converti en assurance permanente avec une couverture jusqu'à cinq fois le montant initial sans avoir besoin d'examens médicaux." },
     "Seven": {"name": "Avenant de Soins de Longue Durée", "body": "Dans le cas où l'assuré doit séjourner dans une maison de retraite ou recevoir des soins à domicile, cet avenant propose des mensualités. Bien que l'assurance soins de longue durée puisse être souscrite individuellement, les compagnies d'assurance proposent également des avenants qui prennent en charge vos frais de soins de longue durée."}
   },
+  "HealthTypes": {
+    "One": { "name": "Médicament" },
+    "Two": { "name": "Vision" },
+    "Three": {"name": "Dentaire"}
+  },
+  "HealthReasons": {
+    "One": { "name": "Médicaments sur ordonnance", "body": "Cette garantie couvre les coûts croissants des médicaments génériques et des médicaments de marque." },
+    "Two": { "name": "Soins Dentaires", "body": "Les visites chez le dentiste pourraient être un peu plus tolérables si vous aviez une couverture." },
+    "Three": { "name": "Soins de la vue", "body": "Cette garantie couvre notamment les lunettes, les lentilles cornéennes et les examens de la vue." },
+    "Four": { "name": "Soins à domicile et soins infirmiers", "body": "Recevez des services de réadaptation dans le confort de votre maison. " },
+    "Five": { "name": "Services de professionnels autorisés", "body": "Cette garantie couvre notamment les services des chiropraticiens, des naturopathes, des massothérapeutes et des diététistes." },
+    "Six": { "name": "Couverture améliorée pour les aînés", "body": "Les frais remboursés augmentent automatiquement à 65 ans pour les soins et services dont vous avez le plus besoin." }
+
+  },
+  "HealthAddons": {
+    "One": { "name": "Assurance voyage pour les soins médicaux d’urgence", "body": "Vous bénéficiez d’une couverture jusqu’à concurrence de 5 000 000 $ pour un nombre illimité de voyages par année." },
+    "Two": { "name": "Économies d’impôt ", "body": "Vous êtes travailleur autonome ou propriétaire d’une petite entreprise? Une partie de vos primes pourrait être déductible de votre revenu imposable." },
+    "Three": { "name": "Akira par TELUS Santé (application de soins de santé virtuels)", "body": "Grâce à l’application, vous avez accès en tout temps à un réseau de professionnels de la santé en ligne. De plus, vous avez facilement accès aux résultats de tests en laboratoire, aux prescriptions, aux renouvellements et aux recommandations." },
+    "Four": { "name": "Demandes de règlement en ligne en tout temps ", "body": "Présentez vos demandes de règlement dès que votre couverture est en vigueur." },
+    "Five": { "name": "Soins de la vue, formule étendue", "body": "Permet d’augmenter la couverture pour les soins de la vue, et Comprend une couverture pour la correction de la vue au laser." },
+    "Six": { "name": "Hospitalisation, formule étendue", "body": "Pour une chambre à un lit ou à deux lits. Couverture à 100 % des frais quotidiens maximums pour la chambre, par assuré et par année contractuelle. " }
+  },
+  "TravelTypes": {
+    "One": { "name": "Voyageurs Canadiens" },
+    "Two": { "name": "Voyage pour les Étudiants" },
+    "Three": {"name": "Super Visa" }
+  },
+  "TravelReasons": {
+    "One": { "name": "Couverture jusqu’à $10 millions pour les soins médicaux d’urgence", "body": "Pour les imprévus en cas de soins hospitaliers, de soins dentaires et d’ambulance lorsque vous en avez besoin." },
+    "Two": { "name": "Annulation et interruption de voyage", "body": "Pour les fois où quelque chose se produit et que vous ne pouvez pas voyager ou que votre voyage est interrompu." },
+    "Three": { "name": "Bagages perdus, endommagés ou retardés", "body": "Peut vous aider pour votre passeport, votre permis de conduire, vos articles de toilette, vos vêtements et autres." },
+    "Four": { "name": "Accidents de vol et de voyage", "body": "Protection en cas de décès, de cécité ou de mutilation." }
+
+  },
+  "TravelAddons": {
+    "One": { "name": "Couverture jusqu’à $2 millions de dollars pour les soins médicaux d’urgence", "body": "Peut couvrir les services d’un médecin, les services hospitaliers, les services ambulanciers et les soins dentaires que vous aurez nécessités de façon imprévue pendant votre séjour à l’étranger. " },
+    "Two": { "name": "Soins médicaux non urgents", "body": "Votre couverture couvre les examens médicaux et de la vue annuels. " },
+    "Three": { "name": "Décès ou mutilation accidentels ", "body": "Elle couvre également les accidents entraînant le décès, la cécité ou une mutilation." },
+    "Four": { "name": "Et Bien Plus", "body": "Inclus, mais sans s'y limiter, l'assistance pour les bagages perdus, volés ou retardés, l'aide pour obtenir de l'argent en cas d'urgence, l'aide pour obtenir une aide juridique ou une caution et bien d'autres." }
+  },
   "form": {
     "Contact": "Contactez-Nous",
     "first": "Prénom",
@@ -151,5 +195,9 @@
   },
 "aboutus": {
   "body": "Chez NOUR ASSURANCE. Nous nous engageons à respecter les principes de service et d'intégrité tout en offrant à nos clients des conseils et une assistance professionnels, afin de leur apporter UNE sécurité et protection financière. Nous nous engageons à mettre sur le marché des produits d'assurance adéquats à des prix compétitifs, tout en aidant nos clients à répondre à leurs besoins changeants. Notre équipe de professionnels place le client au cœur de sa préoccupation, dont sa rôle principal est d'être le conseiller en assurance pour vous, votre entreprise et votre famille."
+},
+"sr":{
+  "ht": "Santé",
+  "tr": "Voyage"
 }
 }
